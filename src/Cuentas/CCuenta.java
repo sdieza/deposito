@@ -12,7 +12,12 @@ package Cuentas;
  */
 public class CCuenta {
 
-    // Parametros de la clase "CCuenta" 
+    /** Parametros de la clase "CCuenta"
+     * @param String nombre
+     * @param String cuenta
+     * @param double saldo
+     * @param double tipoInteres
+     */ 
     private String nombre;
     private String cuenta;
     private double saldo;
